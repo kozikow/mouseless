@@ -37,6 +37,16 @@ requests
 * built in calculator
 * Control spotify, evernote, add remember the milk tasks, post to twitter, kill top processes, translate, change units, change currencies
 
+Shortcat
+--------
+http://shortcatapp.com/ .  This application allows you to control all applications that implement accessibility using keyboard. Some use cases listed on the website:
+* Switching channels in Textual
+* Switching chats in Skype
+* Clicking links in chat apps
+* Changing settings in System Preferences
+* Browsing the web in Safari
+* Using apps within the iOS Simulator
+
 Chat
 ----
 Any mac standalone application can be controlled with shortcuts.
