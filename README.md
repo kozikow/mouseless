@@ -9,8 +9,8 @@ Window management:
 -----------------
 I recommend application slate to manage your windows.
 It allows me to focus on application by shortcut, resize windows, move windows between monitors and switch focus between opened windows.
-Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ . 
-My .slate is pretty minimalistic comparing to some people settings: https://github.com/kozikow/dotfiles/blob/master/slate
+Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ .
+My .slate is pretty minimalistic comparing to some people settings: https://github.com/kozikow/dotfiles/blob/master/.slate
 Useful option is a hint mode, which shows all open applications with letter on it.
 Pressing the letter will focus on application. It's better than alt-tabbing through long list of applications.
 
@@ -52,9 +52,9 @@ Browser
 -------
 Chrome with addon Vimium:
 http://lifehacker.com/5925220/make-chrome-less-distracting-with-vimium-and-these-settings
-Vimium doesn't work in tabs, which doesn't have anything opened yet. It sometimes conflicts with 
+ . Vimium doesn't work in tabs, which doesn't have anything opened yet. It sometimes conflicts with 
 shortcuts in some web applications, like Gmail. If you use firefox, Vimperator have more features than 
-Vimium * on example you can select text using only keyboard.
+Vimium - on example you can select text using only keyboard.
 
 Gmail
 -----
