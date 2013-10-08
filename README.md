@@ -1,6 +1,5 @@
 Going mouse-less on MAC.
 =========
-
 Trying to remove mouse from your daily routine have a few advantages.
 * It makes me more productive. It keeps me more focused.
 * I can work from hammock/couch/beanbag, since I don't have to reach mouse or touchpad.
@@ -62,4 +61,4 @@ Gmail have it's own excellent set of shortcuts. Just press "?" while in gmail.
 
 IDE
 ---
-IDEs from IntelliJ have the best Vim compatibility plugin out of mac IDEs (I heard Visual Studio have good Vim compatibility as well) * Idea Vim. 
+IDEs from IntelliJ have the best Vim compatibility plugin out of mac IDEs (I heard Visual Studio have good Vim compatibility as well) * Idea Vim. The most useful shortcut is Cmd+shift+A, which searches through all possible actions.
