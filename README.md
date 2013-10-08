@@ -34,7 +34,8 @@ Options worth mentioning:
 * For really frequently visited websites I have a "blank" search engine,
   which serves as bookmark. On example I just type "pulls" to open list of pull
 requests
-* Control spotify, evernote, add remember the milk tasks, post to twitter.
+* built in calculator
+* Control spotify, evernote, add remember the milk tasks, post to twitter, kill top processes, translate, change units, change currencies
 
 Chat
 ----
