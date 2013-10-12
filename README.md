@@ -50,7 +50,7 @@ http://shortcatapp.com/ .  This application allows you to control all applicatio
 Chat
 ----
 Any mac standalone application can be controlled with shortcuts.
-I use Adium, which allows me to talk with my both Facebook and Skype
+I use Adium, which allows me to talk with my Facebook and Skype
 contacts.
 
 
@@ -69,7 +69,11 @@ I used Conque ( https://code.google.com/p/conque/ ), terminal inside Vim window,
 It's imperfect - opening Vim inside Vim (on example over ssh) is buggy.
 Pasting into prompt is buggy (but can be worked around) - https://code.google.com/p/conque/issues/detail?id=97 .
 It looks like it's no longer maintained.
-Hovewer, overall I prefer it to using traditional Terminal.
+At the time I was investigating it was the best option of terminal as Vim buffer.
+Hoverer, overall I prefer it to using traditional Terminal.
+
+
+Vimshell ( https://github.com/Shougo/vimshell.vim ) looked promising, because it was almost as good as Conque, but it was actively maintained.
 
 
 Interesting option, which I didn't explore yet is using Vim emulation (EVIL - http://www.emacswiki.org/emacs/Evil ) mode in Emacs.
@@ -77,7 +81,7 @@ Emacs have pretty good shell integration built in.
 
 Browsing
 --------
-Chrome with add on Vimium:
+Chrome with add-on Vimium:
 http://lifehacker.com/5925220/make-chrome-less-distracting-with-Vimium-and-these-settings
  . Vimium doesn't work in tabs, which doesn't have anything opened yet. It sometimes conflicts with 
 shortcuts in some web applications, like Gmail. If you use Firefox, Vimperator have more features than 
