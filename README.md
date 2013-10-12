@@ -72,7 +72,7 @@ It looks like it's no longer maintained.
 Hovewer, overall I prefer it to using traditional Terminal.
 
 
-Interesting option, which I didn't explore yet is using Vim emulation mode in Emacs.
+Interesting option, which I didn't explore yet is using Vim emulation (EVIL - http://www.emacswiki.org/emacs/Evil ) mode in Emacs.
 Emacs have pretty good shell integration built in.
 
 Browsing
