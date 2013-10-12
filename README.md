@@ -53,6 +53,10 @@ Any mac standalone application can be controlled with shortcuts.
 I use Adium, which allows me to talk with my both Facebook and Skype
 contacts.
 
+
+Vimchat ( https://github.com/ironcamel/vimchat ) would be interesting option to explore.
+I didn't have time to look at it yet.
+
 Text editor
 -----------
 I recommend Vim. Configuring Vim is too long topic for this post.
