@@ -9,9 +9,8 @@ Window management:
 I recommend application slate to manage your windows.
 It allows me to focus on application by shortcut, resize windows, move windows between monitors and switch focus between opened windows.
 Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ .
-My .slate is pretty minimalistic comparing to some people settings: https://github.com/kozikow/dotfiles/blob/master/.slate
-Useful option is a hint mode, which shows all open applications with letter on it.
-Pressing the letter will focus on application. It's better than alt-tabbing through long list of applications.
+My .slate is pretty minimalistic comparing to some people settings: https://github.com/kozikow/dotfiles/blob/master/.slate .
+You can even program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
 
 Useful system wide shortcuts and settings:
 ------------------------------------------
