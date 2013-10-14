@@ -99,4 +99,5 @@ I don't like printed cheat sheets.
 You can't search through them.
 You can't delete items you already remember.
 You can't mix up shortcuts from different sources.
+You can't add shortcuts you remapped.
 I personally maintain evernote note for shortcuts I want to remember in each app.
