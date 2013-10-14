@@ -74,7 +74,7 @@ Conque felt more mature than Vimshell, but Vimshell on the other hand was active
 
 
 Two useful terminal commands:
-pbcopy coppies it's piped input to clipboard
+pbcopy coppies it's piped input to clipboard.
 vim - openes it's input as a vim window.
 For example "ls | vim -". 
 Browsing
