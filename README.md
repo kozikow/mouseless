@@ -9,15 +9,16 @@ Window management:
 I recommend application slate to manage your windows.
 It allows me to focus on application by shortcut, resize windows, move windows between monitors and switch focus between opened windows.
 Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ .
-My .slate is pretty minimalistic comparing to some people settings: https://github.com/kozikow/dotfiles/blob/master/.slate .
-You can even program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
+My .slate is still pretty poor, I even didn't convert yet to .js format: https://github.com/kozikow/dotfiles/blob/master/.slate .
+You can program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
 
 Useful system wide shortcuts and settings:
 ------------------------------------------
 * http://guides.macrumors.com/Keyboard_shortcuts 
 * When in ANY mac application you can press "cmd+shift+?" to search through all menu items available in that app.
-* Some people don't know that you can change any MAC application shortcut by going to Preferences->Keyboard->Keyboard Shortucts->Application Shortcuts.
-Good thing to do is to remap "go to next tab/chat/whatever" to same shortcut, since applications tend to have different one.
+* Some people don't know that you can change any Cocoa application shortcuts by going to Preferences->Keyboard->Keyboard Shortucts->Application Shortcuts.
+I recommend to remap "go to next tab/chat/whatever" to same shortcut, since applications tend to have different one.
+Cmd+Alt+arrows was the only one that wasn't conflicting and worked in all apps.
 * Ctrl+f2 shortcut changes focus to menu bar, so you can navigate it with arrows. For some reason sharted working for me only after I remapped it to different binding.
 * Turn full keyboard access on by going to Keyboard->Keyboard Shortcuts->All Controls. Then you would be able to control any mac application prompt using your keyboard.
 Space to cycle between options, space to choose highlighted option, enter to choose default option.
@@ -36,11 +37,11 @@ Options worth mentioning:
   which serves as bookmark. For example I just type "pulls" to open list of pull
 requests
 * built in calculator
-* Control Spotify, Evernote, add remember the milk tasks, post to twitter, kill top processes, translate, change units, change currencies
+* Using Alfred workflows (Premium, http://support.alfredapp.com/workflows ) you can do quite a lot. I frequently use it to Control Spotify, Evernote, add remember the milk tasks, kill top processes, google translate, change units, currencies, run build/tests and get growl notification when it completes, lookup time in timezone and open/search through/delete recently downloaded files. You can post to twitter.
 
 Shortcat
 --------
-http://shortcatapp.com/ .  This application allows you to control all applications that implement accessibility using keyboard. Some use cases listed on the website:
+http://shortcatapp.com/ .  This application allows you to control all applications that implement accessibility using keyboard. Some use cases according to the website:
 * Switching channels in Textual
 * Switching chats in Skype
 * Clicking links in chat applications
@@ -51,39 +52,46 @@ http://shortcatapp.com/ .  This application allows you to control all applicatio
 Chat
 ----
 Any mac standalone application can be controlled with shortcuts.
-I use Adium, which allows me to talk with my Facebook and Skype
-contacts.
-
-
-Vimchat ( https://github.com/ironcamel/vimchat ) looks like interesting option to explore.
-Sadly, I didn't have time to look at it yet.
+I use Adium, which allows me to talk with my Facebook and Skype contacts at once and I can control it with keyboard.
 
 Text editor
 -----------
 I recommend Vim. Configuring Vim is too long topic for this post.
-If you want to have pretty well configured Vim out of box I recommend this: https://github.com/square/maximum-awesome .
+If you want to have pretty well configured Vim out of box I recommend this: https://github.com/square/maximum-awesome . 
+Janus ( https://github.com/carlhuda/janus ) is another option, but I think maximum-awesome is better.
 Imho the best way to learn Vim is first doing Vimtutor and then reading book Practical Vim by Drew Neil.
+
+
+Another nice option is to use Emacs with Evil (extensible vi layer - vim emilation) mode. It works very well, there are even some plugins ported.
 
 Terminal
 --------
-Instead of using traditional terminal you can use Conque or Vimshell.
-It lets you select and search through terminal output with keyboard, because console output can be treated as vim buffer.
+As general tip not related to this guide iTerm is way better than built in Mac terminal.
+Instead of using traditional terminal you can use Conque or Vimshell - terminal inside Vim.
+It lets you select, navigate and copy terminal output with keyboard, because console output can be treated as vim buffer.
 Both Conque and Vimshell feel still immature and have a few minor bugs that may be annoying.
 For example opening vim over ssh is buggy in both of them.
 Conque felt more mature than Vimshell, but Vimshell on the other hand was actively developed.
+
+
+Another option is to use eshell - built in emacs shell.
+If you install Evil mode you can use navigate output using vim commands.
+But it takes a lot of configuration and learning to use it, so I don't recommend it unless you are really determined to find perfect workflow or you are emacs user already.
 
 
 Two useful terminal commands:
 pbcopy coppies it's piped input to clipboard.
 vim - openes it's input as a vim window.
 For example "ls | vim -". 
+
 Browsing
 --------
 Chrome with add-on Vimium:
-http://lifehacker.com/5925220/make-chrome-less-distracting-with-Vimium-and-these-settings
- . Vimium doesn't work in tabs, which doesn't have anything opened yet. It sometimes conflicts with 
-shortcuts in some web applications, like Gmail. If you use Firefox, Vimperator have more features than 
-Vimium - for example you can select text using only keyboard.
+http://lifehacker.com/5925220/make-chrome-less-distracting-with-Vimium-and-these-settings .
+It sometimes conflicts with shortcuts in some web applications, like Gmail, but you can either disable vimium on some urls, or use insert mode.
+It doesn't work in empty tabs due to chrome security restrictions.
+For this reason I recommend using cmd+w for closing tabs and remap select next tab as I said previously.
+If you use Firefox, Vimperator have more features than Vimium - for example you can select text using only keyboard.
 
 Gmail
 -----
