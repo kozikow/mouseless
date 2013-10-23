@@ -89,10 +89,6 @@ Gmail
 -----
 Gmail have it's own excellent set of shortcuts. Just press "?" while in Gmail.
 
-IDE
----
-IDEs from IntelliJ have the best Vim compatibility plug-in out of mac IDEs (I heard Visual Studio have good Vim compatibility as well) * Idea Vim. The most useful shortcut is Cmd+shift+A, which searches through all possible actions.
-
 Cheat sheets
 ------------
 I don't like printed cheat sheets.
