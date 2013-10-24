@@ -12,6 +12,11 @@ Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ .
 My .slate is still pretty poor, I even didn't convert yet to .js format: https://github.com/kozikow/dotfiles/blob/master/.slate .
 You can program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
 
+
+If you miss xmonad there are some ports of xmonad for OS X:
+Amethyst ( https://github.com/ianyh/Amethyst  ), Xnomad ( http://onethingwell.org/post/44220275446/xnomad  ) or OsxMonad ( http://onethingwell.org/post/44862454682/osxmonad  ) or ( http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_on_Apple_OSX ).
+I plan to try them out when I'll have some time.
+
 Useful system wide shortcuts and settings:
 ------------------------------------------
 * http://guides.macrumors.com/Keyboard_shortcuts 
