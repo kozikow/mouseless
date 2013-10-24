@@ -27,6 +27,7 @@ Cmd+Alt+arrows was the only one that wasn't conflicting and worked in all apps.
 * Turn full keyboard access on by going to Keyboard->Keyboard Shortcuts->All Controls. Then you would be able to control any mac application prompt using your keyboard.
 Space to cycle between options, space to choose highlighted option, enter to choose default option.
 * You can usually cycle through availbale items using tab. Some applications implement cycling backwards using shift+tab
+* Cmd + Alt + D Hides dock. If you will mostly use slate as I do it's wasted screen space.
 
 Launcher:
 ---------
