@@ -13,9 +13,8 @@ My .slate is still pretty poor, I even didn't convert yet to .js format: https:/
 You can program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
 
 
-If you miss xmonad there are some ports of xmonad for OS X:
+Slate is not really a Tiling window manager. I plan to try some xmonad ports for Mac.
 Amethyst ( https://github.com/ianyh/Amethyst  ), Xnomad ( http://onethingwell.org/post/44220275446/xnomad  ) or OsxMonad ( http://onethingwell.org/post/44862454682/osxmonad  ) or ( http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_on_Apple_OSX ).
-I plan to try them out when I'll have some time.
 
 Useful system wide shortcuts and settings:
 ------------------------------------------
