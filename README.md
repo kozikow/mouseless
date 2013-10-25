@@ -3,6 +3,7 @@ Going mouse-less on MAC.
 Trying to remove mouse from your daily routine have a few advantages.
 * It makes me more productive. It keeps me more focused.
 * I can work from hammock/couch/beanbag, since I don't have to reach mouse or touchpad.
+* Not using mouse will help you reduce the risk of wrist injury: http://kellishaver.tumblr.com/post/31143579095/wrist-and-hand-pain-when-programming
 
 Window management:
 -----------------
