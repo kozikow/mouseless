@@ -2,20 +2,24 @@ Going mouse-less on MAC.
 =========
 Trying to remove mouse from your daily routine have a few advantages.
 * It makes me more productive. It keeps me more focused.
-* I can work from hammock/couch/beanbag, since I don't have to reach mouse or touchpad.
+* I can easily work from hammock, couch, beanbag or bed, since I don't have to reach mouse or even touchpad.
 * Not using mouse will help you reduce the risk of wrist injury: http://kellishaver.tumblr.com/post/31143579095/wrist-and-hand-pain-when-programming
 
 Window management:
 -----------------
-I recommend application slate to manage your windows.
+I recommend application 'slate' to manage your windows.
 It allows me to focus on application by shortcut, resize windows, move windows between monitors and switch focus between opened windows.
 Here is good intro: http://thume.ca/howto/2012/11/19/using-slate/ .
 My .slate is still pretty poor, I even didn't convert yet to .js format: https://github.com/kozikow/dotfiles/blob/master/.slate .
 You can program it in Javascript: https://github.com/jigish/slate/wiki/JavaScript-Configs .
 
 
-Slate is not really a Tiling window manager. I plan to try some xmonad ports for Mac.
-Amethyst ( https://github.com/ianyh/Amethyst  ), Xnomad ( http://onethingwell.org/post/44220275446/xnomad  ) or OsxMonad ( http://onethingwell.org/post/44862454682/osxmonad  ) or ( http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_on_Apple_OSX ).
+Slate is not really a Tiling window manager.
+There are 4 good options: Direct port of xmonad, xnomad, osx monad and Amethyst.
+Direct port of xmonad does not support mac native apps.
+Amethyst meant to be replacement for xnomad.
+Author of osx monad said that I should use Amethyst: https://twitter.com/puffnfresh/status/393855478632968192 .
+It looks like Amethyst is way to go and I plan to try it out soon.
 
 Useful system wide shortcuts and settings:
 ------------------------------------------
